@@ -1,2 +1,7 @@
+__pycache__
 /__pycache__/*
-to_send
+to_send/images
+to_send/Rewards
+to_send/data/serials
+to_send/data/gameLauncher.exe
+to_send/data/db.txt

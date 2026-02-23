@@ -1,0 +1,55 @@
+# PDG - Photo Distribution Game
+
+## Bienvenue !
+
+Quelqu'un vient de vous offrir ce jeu afin de vous faire parvenir quelques photographies et images de façon rigolote.
+
+## Lancer le jeu
+
+Pour jouer, il vous suffit de lancer le fichier "play_game.bat" en cliquant dessus.     
+Vous trouverez vos récompences dans le dossier 'Rewards'
+
+## Rejouer au jeu
+Vous avez beaucoup apprécié ce jeu et vous voulez pouvoir le recommencer de zéro ?
+Rien de plus simple: Il vous suffit de cliquer sur "reset_game.bat".   
+
+
+## Partagez le jeu à votre tour !
+
+Vous avez apprécié ce cadeau ? Offrez à votre tour cette expérience à vos proches en leur envoyant ce jeu avec vos propres photos !.
+
+Vous allez voir c'est très simple.
+
+> ! Attention ! Faites une copie de tout le dossier du jeu si vous voulez pouvoir rejouer à celui-ci.
+> En effet les données du jeu d'origine seront effacés pour faire place aux nouvelles.
+
+> Important: Seules les images aux formats JPEG et PNG et d'extentions .jpeg, .jpg et .png sont supportés pour le moment.
+
+
+1. Déposez les photos que vous voulez intégrer au jeu dans le dossier "images".
+2. Lancez le programme "load_new_image_set.bat".    
+Et c'est tout !    
+Enfin presque.    
+3. Supprimez maintenant les photos du dossier 'images' afin de ne pas les envoyer avec le jeu.
+4. Supprimez le dossier "Rewards" qui contient encore vos précédentes récompences..
+5. Pour vous assurer que tout fonctionne comme prévu, testez le jeu en lançant 'play_game.bat'.
+6. Et voilà ! Tout est prêt, vous pouvez partager le dossier avec le futur joueur de votre choix.
+
+
+## Customiser le jeu
+
+Ouvrez le fichier 'data\\.env' avec un éditeur de texte.
+La ligne 'GIVER_NAME' permet de changer le nom apparaissant sur la dernière page du jeu.
+La ligne 'NB_BLOCK_X' et 'NB_BLOCK_Y' permettent de changer le nombre de cases de chaque cotés du jeu TileGame.
+
+Pour résumer vous devez transmettre un dossier contenant:
+    - dossier "data" contenant les images inaccessibles
+    - fichier "db.txt"
+    - fichier ".env"
+    - fichier "gameLauncher.exe"
+    - fichier "load_new_image_set.bat"
+    - fichier "play_game.bat"
+
+Le dossier 'data' et le fichier db.txt sont générés en lançant le programme 'load_new_image_set.bat'.
+
+> Information: You can modify the game difficulty by editing the '.env' file.
